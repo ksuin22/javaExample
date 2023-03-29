@@ -24,7 +24,7 @@ public class zHomework0329 {
 			}
 			System.out.print(arr1[i]+" ");
 		}
-		System.out.println("}");
+		System.out.println(".}");
 		
 		//문제3. 주어진 배열 안의 변경하고 싶은 값의 인덱스 번호를 입력받아, 그 값을 1000으로 변경해보자.
 		//   입력) 인덱스: 3 ->   {10, 20, 30, 1000, 3, 60, -3}
