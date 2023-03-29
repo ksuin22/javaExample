@@ -83,7 +83,7 @@ public class homework0327 {
 		String strValue = "번지";
 		
 		//char charVal3 = intValue3; 
-		System.out.println(charValue,intValue1,intValue2);
+//		System.out.println(charValue,intValue1,intValue2);
 		System.out.printf("(%d+%d)%s",intValue1,intValue2,intValue3 );
 		    
 	    /* 추가문제) 아래와 같이 변수 값이 주어질 경우 각 자리의 합을 구해 출력하세요. 
