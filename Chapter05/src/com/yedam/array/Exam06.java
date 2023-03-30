@@ -50,12 +50,13 @@ public class Exam06 {
 				}
 				System.out.println("최고점수 = "+ max);
 				
-				//평균점수	
+				//평균점수
+				int sum =0;
 				int avg = scores[0];
-				for(i=0; i<scores.length; i++) {
+				for(int i=0; i<scores.length; i++) {
 					sum += scores[i];				
 					}
-				System.out.println(sum/scores.length);
+				System.out.println((double)sum/scores.length);
 							
 			}else if(selectNo ==5) {
 				//종료

@@ -79,23 +79,52 @@ public class zHomework0329 {
 		//아래의 내용을 확인하요 채워 넣으세요.
 		int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 		int[] copyArray = new int[3];
+		/*
+		 * (1) . 알맞은 코드를 넣어 완성하시오
+		 * 배열 array의 임의의 값 j를 활용하여 현재위치와 j의 위치를 바꾼다.
+		 */		
+		System.out.print("{ ");
 		for (int i = 0; i < array.length; i++) {
 			int j = (int) (Math.random() * array.length);
+			//math.random의 범위는 0~1사이 값임. 배열길이 곱해주면 0~9사이의 랜덤값 추출.
 			int tmp = 0;
-			/*
-			 * (1) . 알맞은 코드를 넣어 완성하시오
-			 * 배열 array의 임의의 값 j를 활용하여 현재위치와 j의 위치를 바꾼다.
-			 */
+			tmp= array[i];
+			array[i]=array[j];
+			array[j]=tmp;
+			System.out.print(array[i]+" ");
 		}
+		System.out.println("}");
+		
 		/* (2) */
 		// array->copyArray 배열 복사하는데, 0번째부터 2번째까지 총 3개만 복사
-		for (int i = 0; i < copyArray.length; i++) {
-			System.out.print(copyArray[i]);
+		for(int i=0; i<array.length; i++) {
+			System.out.print(array[i]+ ", ");
 		}
+		System.out.println();
+		
+		for (int i = 0; i < copyArray.length; i++) {
+			copyArray[i]=array[i];
+			System.out.print(copyArray[i]+ ", ");
+		}
+		
+		System.out.println();
 
 		//문제7.
 		//알파벳 'A'-'Z'까지 반복문을 활용하여 배열에 입력하고, 하나의 문자를 입력 받아
 		//그 문자가 어느위치에 있는지 출력하시오.
+		
+
+		char az[] = new char[26];
+		
+		int val=1;
+		
+		char charval=(char)val;
+
+		
+			for(int j=65;j<=90;j++) {
+				System.out.print(az[j]);
+				
+			}
 
 
 
