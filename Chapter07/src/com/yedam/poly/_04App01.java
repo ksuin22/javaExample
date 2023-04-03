@@ -16,7 +16,7 @@ public class _04App01 {
 		
 		
 		
-		_02Child01 child = new _02Child01();
+		Child child = new Child();
 		_01Parent parent = child; //parent타입으로 변환
 		//위에 두줄을 한줄로 표현하기
 		//Parent parent = new Child01(); 

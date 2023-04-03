@@ -1,13 +1,13 @@
 package com.yedam.poly;
 
 
-public class _05Car {
+public class _06Car {
 
 	//필드
-	_06Tire frontLeftTire = new _06Tire("앞 왼쪽", 6);
-	_06Tire frontRightTire = new _06Tire("앞 오른쪽", 2);
-	_06Tire backLeftTire = new _06Tire("뒤 왼쪽", 3);
-	_06Tire backRightTire = new _06Tire("뒤 오른쪽", 4);
+	_05Tire frontLeftTire = new _05Tire("앞 왼쪽", 6);
+	_05Tire frontRightTire = new _05Tire("앞 오른쪽", 2);
+	_05Tire backLeftTire = new _05Tire("뒤 왼쪽", 3);
+	_05Tire backRightTire = new _05Tire("뒤 오른쪽", 4);
 	
 	//메소드
 	int run() {

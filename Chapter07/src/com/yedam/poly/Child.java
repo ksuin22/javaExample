@@ -1,6 +1,6 @@
 package com.yedam.poly;
 
-public class _02Child01 extends _01Parent{
+public class Child extends _01Parent{
 	
 	public String field2;
 	

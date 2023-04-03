@@ -1,6 +1,6 @@
 package com.yedam.poly;
 
-public class _06Tire {
+public class _05Tire {
 
 	//필드
 	public int maxRotation;
@@ -8,7 +8,7 @@ public class _06Tire {
 	public String location;
 	
 	//생성자
-	public _06Tire(String location, int maxRotation) {
+	public _05Tire(String location, int maxRotation) {
 		this.location = location;
 		this.maxRotation =maxRotation;
 	}

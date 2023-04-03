@@ -1,6 +1,6 @@
 package com.yedam.poly;
 
-public class _08KumhoTire extends _06Tire{
+public class _08KumhoTire extends _05Tire{
 
 	//필드
 	

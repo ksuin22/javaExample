@@ -7,7 +7,7 @@ public class _03App01 {
 		
 		child.lastName = "이";
 		child.getInfo();
-		child.money = 1000; //private 이라서 안됨
+	//	child.money = 1000; //private 이라서 안됨
 		
 		
 	}

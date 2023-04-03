@@ -2,7 +2,7 @@ package com.yedam.poly;
 
 public class _09CarExample {
 	public static void main(String[] args) {
-		_05Car car = new _05Car();
+		_06Car car = new _06Car();
 		
 		for(int i=1; i<=5; i++) {
 			int problemLocation = car.run();

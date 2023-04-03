@@ -1,6 +1,6 @@
 package com.yedam.poly;
 
-public class _07HankookTire extends _06Tire {
+public class _07HankookTire extends _05Tire {
 	
 	//필드
 	
