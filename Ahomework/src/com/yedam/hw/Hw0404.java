@@ -2,7 +2,7 @@ package com.yedam.hw;
 
 import java.util.Scanner;
 
-public class Hw0404 implements StringGame {
+public class Hw0404{
 	public static void main(String[] args) {
 		
 		/*
@@ -17,16 +17,15 @@ public class Hw0404 implements StringGame {
 		 
 		 현재 실행코드와 실행결과를 참고하여 StringGame 클래스를 완성하세요.
 		 */
-		
-		
-
-		Scanner sc = new Scanner(System.in);
-		
 
 		
+		String ary[]= {"Orange", "Game", "Phone", "Smart"};
+		int x = (int)(Math.random()*(ary.length-1));
+		String random = ary[x];
 				
 		boolean run = true;
 		StringGame game = new StringGame();
+		Scanner sc = new Scanner(System.in);
 		
 		
 		
