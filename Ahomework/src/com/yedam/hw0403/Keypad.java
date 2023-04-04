@@ -1,4 +1,4 @@
-package com.yedam.homework;
+package com.yedam.hw0403;
 
 public interface Keypad {
 	
@@ -12,17 +12,15 @@ public interface Keypad {
 	
 	public abstract void leftUpButton();
 	
+	
 	public abstract void leftDownButton();
 	
-
+	
+	public abstract void rightUpButton();
 	
 	
-	void RightUpButton1(int NORMAL_MODE);
-	void RightUpButton2(int NORMAL_MODE);
+	public abstract void rightDownButton();
 	
-	
-	
-	public abstract void RightDownButton();
 	
 	public abstract void changeMode();
 

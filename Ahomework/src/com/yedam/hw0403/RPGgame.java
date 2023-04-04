@@ -1,4 +1,4 @@
-package com.yedam.homework;
+package com.yedam.hw0403;
 
 public class RPGgame implements Keypad{
 	
@@ -7,6 +7,7 @@ public class RPGgame implements Keypad{
 
 	protected RPGgame() {
 		int play = NORMAL_MODE;		
+		//this.play = Keypad.NORMAL_MODE;	
 		System.out.println("RPGgame 실행");
 	}
 	
@@ -25,19 +26,14 @@ public class RPGgame implements Keypad{
 	}
 
 	@Override
-	public void RightUpButton1(int NORMAL_MODE) {
+	public void rightUpButton() {
 		System.out.println("캐릭터가 한칸 단위로 점프한다.");
+		System.out.println("캐릭터가 두칸 단위로 점프한다.");
 		}
 		
 	
 	@Override
-	public void RightUpButton2(int HARD_MODE) {
-		System.out.println("캐릭터가 두칸 단위로 점프한다.");
-		
-	}
-
-	@Override
-	public void RightDownButton() {
+	public void rightDownButton() {
 		System.out.println("캐릭터가 두칸 단위로 점프한다.");
 		
 	}

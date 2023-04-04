@@ -1,8 +1,8 @@
-package com.yedam.array;
+package com.yedam.hw;
 
 import java.util.Scanner;
 
-public class zHomework0329 {
+public class Hw0329 {
 	
 	public static void main(String[] args) {
 		

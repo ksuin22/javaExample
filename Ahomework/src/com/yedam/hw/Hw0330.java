@@ -1,8 +1,8 @@
-package com.yedam.oop;
+package com.yedam.hw;
 
 import java.util.Scanner;
 
-public class zHomework0330 {
+public class Hw0330 {
 
 	public static void main(String[] args) {
 		// 문제2) 다음은 키보드로부터 상품 수와 상품 가격을 입력받아서
