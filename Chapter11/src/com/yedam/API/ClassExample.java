@@ -17,12 +17,12 @@ public class ClassExample {
 		//객체를 통한 정보 얻기
 		Member member = new Member("또치");
 		clazz = member.getClass();
-		System.out.println("1>>  "+clazz);
+		System.out.println(clazz);
 		
-		System.out.println("2>>  "+clazz.getName());
-		System.out.println("3>>  "+clazz.getSimpleName());
-		System.out.println("4>>  "+clazz.getPackageName());
-		System.out.println("4>>  "+clazz.getPackage().getName());
+		System.out.println(clazz.getName());
+		System.out.println(clazz.getSimpleName());
+		System.out.println(clazz.getPackageName());
+		System.out.println(clazz.getPackage().getName());
 		
 		//절대경로
 		String photoPath = clazz.getResource("1.jpg").getPath();
