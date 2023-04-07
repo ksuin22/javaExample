@@ -70,7 +70,7 @@ public class MemberService {
 	
 	
 	//회원 등록
-	public void memberAdd() {
+	public void memberAdd() { 
 		String id = "";		
 		while(true) {
 			System.out.println("ID > ");

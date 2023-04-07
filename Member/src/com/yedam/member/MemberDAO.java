@@ -9,11 +9,6 @@ public class MemberDAO extends DAO{
 	
 	//싱글톤
 	
-	
-	//history 쓰기
-	//230406 PSH MemberDAO 아래기능 구현
-	//로그인 - login()
-	//로그아웃 - logout()
 	private static MemberDAO memberDao =null;
 	
 	private MemberDAO() {
@@ -68,7 +63,7 @@ public class MemberDAO extends DAO{
 	//1.회원조회
 	public List<Member> getMemberList(){
 		List<Member> list = new ArrayList<>();
-		Member member = null;
+		Member member = null; 
 		
 		try {
 			conn();
