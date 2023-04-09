@@ -6,7 +6,7 @@ public class CardPayment implements Payment {
 	
 	public CardPayment(double cardRatio) {
 		this.cardRatio = cardRatio;
-		
+		ddcddd
 	
 	}
 
